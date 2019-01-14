@@ -1,6 +1,8 @@
 # Car-price-prediction
 This projects shows how to apply linear regression to make used car prices prediction. 
 First we went threw and EDA(Exploratory Data Analysis), then feature selection then modeling and finally evaluating our model using difirent metrics and diffirent techniques.
+![car price prediction](images/car.jpeg)
+
 ## Part 1 – Data Cleaning and EDA
 ### Data Cleaning
 We need to preprocess the data to transform it to a useful one and also to reduce its size, so that it
