@@ -76,4 +76,4 @@ Question 4: Comparing models
 Question 4a:
 Models evaluations:
 There is a lot of metrics to evaluate the models but we can also see the plot where we show the real against the predicted prices. We can easily see that both curves share the same pace. 
-![real vs predicted](images/eval.jpg)
+![real vs predicted](images/eval.png)
