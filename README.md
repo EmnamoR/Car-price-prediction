@@ -35,6 +35,7 @@ find all analysis in the notebook)
 In the analysis made in the notebook we can see that the “length” , “built_year “,
 ”first_registration_date”, “horsepower” , “kw” and “width” are strongly correlated with the price. So
 “Mileage” and “KW” are not the only relevant features to work with.
+![correlation matrix](images/cor.png)
 We can see as well that after training the model with only 2 features, we have had a very bad accuracy
 equal to 0.463 what is already predicted by the cross validation score
 scores = cross_val_score(RF, features, label, cv=5)
@@ -75,3 +76,4 @@ Question 4: Comparing models
 Question 4a:
 Models evaluations:
 There is a lot of metrics to evaluate the models but we can also see the plot where we show the real against the predicted prices. We can easily see that both curves share the same pace. 
+![real vs predicted](images/eval.jpg)
