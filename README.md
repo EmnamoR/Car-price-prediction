@@ -28,7 +28,7 @@ it has an effect on the pricing. (but we will deleted when building the model)
 After the data preprocessing step, we should visualize the data to better understand the business,
 how the data is distributed and have more insights about what is happening under the hoods. (please
 find all analysis in the notebook)
-## Part 2 - Model Interpretation
+## Part 2 - Feature selection
 
 In the analysis made in the notebook we can see that the “length” , “built_year “,
 ”first_registration_date”, “horsepower” , “kw” and “width” are strongly correlated with the price. So
